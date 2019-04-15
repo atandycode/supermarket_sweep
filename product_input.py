@@ -10,3 +10,4 @@ class ProductInput:
 
 test = ProductInput()
 test.product_input()
+test.print_product()
