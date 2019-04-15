@@ -1,13 +1,11 @@
 class ProductInput:
     def __init__(self):
-        self.product = input("Please enter product: ")
-
-    def product_input(self):
-        return self.product
+        self.name = str(input("Please enter product: "))
 
     def print_product(self):
-        print(f"You are searching for {self.product}, is that correct?")
+        print(f"{self.name}")
 
-test = ProductInput()
-test.product_input()
-test.print_product()
+    
+
+# test = ProductInput()
+# test.print_product()
