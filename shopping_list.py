@@ -32,5 +32,4 @@ class ShoppingList:
         for i in range(len(self.shopping_list)):
             print(f'{i}. {self.shopping_list[i]}')
 
-# test = ShoppingList()
-      
+        return self.shopping_list      
